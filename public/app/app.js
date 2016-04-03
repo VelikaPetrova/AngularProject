@@ -15,6 +15,7 @@ angular.module('myApp')
 
   function link(scope) {
     scope.submitHandler = function(query) {
+
       $http.get('http://www.omdbapi.com/?s=' + query)
       .then(function(response) {
         console.log(response.data);
