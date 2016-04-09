@@ -1,6 +1,7 @@
 {
   "extends": "eslint:recommended",
   "env": {
+<<<<<<< HEAD
     "browser": true,
     "node": true
   },
@@ -9,5 +10,8 @@
   },
   "rules": {
     "no-console": 0
+=======
+    "browser": true
+>>>>>>> origin/master
   }
 }
